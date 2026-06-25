@@ -26,6 +26,14 @@ document.querySelectorAll('.nav-links a').forEach(link => {
 // Content data
 const posts = [
   {
+    id: 'gadget-review',
+    title: '盘点我买过最不会吃灰的电子产品',
+    date: '2026-06-25',
+    desc: '从手机到充电线，聊聊那些买了之后真的每天都在用的电子产品。',
+    tags: ['生活', '数码'],
+    category: '生活'
+  },
+  {
     id: 'first-post',
     title: '我的第一篇博客',
     date: '2026-06-25',
